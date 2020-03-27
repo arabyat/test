@@ -1,0 +1,10 @@
+git config --global user.name "username"
+git config --global user.email "email"
+git remote add origin https://github.com/arabyat/test.git
+git status
+git add instructions.txt 
+git add ingredients.txt
+git remote -v
+git commit -m "int and ins"
+git push -u origin master
+
