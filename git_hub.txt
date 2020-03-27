@@ -1,5 +1,6 @@
 git config --global user.name "username"
 git config --global user.email "email"
+git init
 git remote add origin https://github.com/arabyat/test.git
 git status
 git add instructions.txt 
