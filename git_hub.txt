@@ -1,11 +1,21 @@
+#############
+Just for one time
+#############
+
 git config --global user.name "username"
 git config --global user.email "email"
+
+#############
+
+#############
+
 git init
-git remote add origin https://github.com/arabyat/test.git
-git status
+git remote add origin ############ repo domian ############
+git remote -v
 git add instructions.txt 
 git add ingredients.txt
-git remote -v
+git status
 git commit -m "int and ins"
+git status
 git push -u origin master
 
